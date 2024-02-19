@@ -1,0 +1,173 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Hero Section Styles */
+#hero img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+/* Features Section Styles */
+#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.feature {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* CTA Section Styles */
+#cta {
+    text-align: center;
+    background-color: #eee;
+    padding: 60px 0;
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Reviews Section Styles */
+#reviews {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.reviews-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Specifications Section Styles */
+#specs {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.specs-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* How It Works Section Styles */
+#how-it-works {
+    padding: 60px 0;
+}
+
+.how-it-works-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.step {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.step img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #eee;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
